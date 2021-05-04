@@ -1,0 +1,25 @@
+#include"Header.h"
+////////////////////////////////////////////////////////////////////////////////////
+//Function Name :  Pattern
+//Paramiter     :  Integer
+//Return Value  :  Integer
+//Description   :  Accept Character from user and check whether it is alphabet or not (A-Z a-z). 
+//Input         :  f          &
+// Output       :  True       False                                                                
+//Author        :  Prajwal Pradeep Kadam
+//Date          :  23\03\2021
+//////////////////////////////////////////////////////////////////////////////////////////
+// Accept Character from user and check whether it is alphabet or not (A-Z a-z). 
+BOOL checkAlpha(char ch)
+{
+   if((ch>='A')&&(ch<='Z')||(ch>='a')&&(ch<='z'))
+   {
+      return TRUE;
+   }
+   else{
+     return   FALSE;
+   }
+}
+
+
+
